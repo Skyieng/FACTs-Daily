@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.edu.utar.FACTsDaily.ProfileEdit"
+    android:background="#BEEDF1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/exit_to_profile"
+            android:layout_width="79dp"
+            android:layout_height="74dp"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/exit_foreground"
+            android:background="#BEEDF1"/>
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/profile_save"
+            android:layout_width="70dp"
+            android:layout_height="69dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:background="#BEEDF1"
+            app:srcCompat="@drawable/profile_save_foreground" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="Edit Profile"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="#6580DD"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/profileEdit"
+            android:layout_width="212dp"
+            android:layout_height="231dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_margin="2dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/choose_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+
+        <EditText
+            android:id="@+id/profile_name_edit"
+            android:layout_width="172dp"
+            android:layout_height="49dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:hint="Enter Name"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

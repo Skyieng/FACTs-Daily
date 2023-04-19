@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@color/orange"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/exit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@null"
+                android:padding="18dp"
+                android:src="@drawable/ic_back_btn" />
+
+            <TextView
+                android:id="@+id/diary_text"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="Diary Content"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@null"
+                android:padding="18dp"
+                android:src="@drawable/ic_save" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/date_pick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Choose the Date"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <!--(con2)(QST5)-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/happy_emo_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="18dp"
+                android:src="@drawable/ic_happy_emo" />
+
+            <ImageButton
+                android:id="@+id/moderate_emo_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="18dp"
+                android:src="@drawable/ic_moderate_emo" />
+
+            <ImageButton
+                android:id="@+id/sad_emo_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="18dp"
+                android:src="@drawable/ic_sad_emo" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/edit_emo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="18dp"
+            android:src="@null"/>
+    </LinearLayout>
+
+        <!--(con3)diary title and detail (QST6)-->
+        <EditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Title"
+            android:gravity="center"
+            android:inputType="text|textMultiLine|textCapSentences|textAutoCorrect"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/edit_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Write your diary details here"
+            android:maxLines="13"
+            android:minLines="7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!--QST7-->
+            <Button
+                android:id="@+id/upload_img_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/upload_cam_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/camera_preview_frame"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/ic_border_line"
+            android:layout_marginBottom="40dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/edit_upload_img_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_image_upload"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "325781465834",
+    "firebase_url": "https://todo-dae97-default-rtdb.firebaseio.com",
+    "project_id": "todo-dae97",
+    "storage_bucket": "todo-dae97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325781465834:android:bd1dcb9ef5c037ca9e0593",
+        "android_client_info": {
+          "package_name": "com.example.dairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325781465834-j0r5ju4n5ej4k5e4tb9paca62pk5f1j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk0ZymwHj_rVnpMZxVYa-wXaAvwnPgih8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325781465834-j0r5ju4n5ej4k5e4tb9paca62pk5f1j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325781465834:android:e39316833c54630b9e0593",
+        "android_client_info": {
+          "package_name": "my.edu.utar.FACTsDaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325781465834-j0r5ju4n5ej4k5e4tb9paca62pk5f1j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk0ZymwHj_rVnpMZxVYa-wXaAvwnPgih8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325781465834-j0r5ju4n5ej4k5e4tb9paca62pk5f1j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325781465834:android:611409a200564a1a9e0593",
+        "android_client_info": {
+          "package_name": "my.edu.utar.to_do_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325781465834-j0r5ju4n5ej4k5e4tb9paca62pk5f1j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk0ZymwHj_rVnpMZxVYa-wXaAvwnPgih8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325781465834-j0r5ju4n5ej4k5e4tb9paca62pk5f1j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

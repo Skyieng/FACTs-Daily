@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    tools:context="my.edu.utar.FACTsDaily.MainActivity3">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="67dp"
+        android:layout_height="74dp"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="142dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/refreshButton"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="Refresh"
+        app:srcCompat="@mipmap/refresh_black"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <ImageButton
+        android:id="@+id/speakerButton"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:background="@null"
+        android:contentDescription="TextToSpeech"
+        app:srcCompat="@mipmap/speaker"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:id="@+id/clockTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clock"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/reminderTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speakerButton"
+        app:layout_constraintVertical_bias="0.821"></LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="51dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.941"
+        app:srcCompat="@mipmap/add" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.943"
+        app:srcCompat="@mipmap/calendar" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:srcCompat="@mipmap/profile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

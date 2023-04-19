@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange">
+
+        <ImageButton
+            android:id="@+id/calenderBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@null"
+            app:srcCompat="@mipmap/calendar"
+            tools:layout_editor_absoluteX="103dp" />
+
+        <ImageButton
+            android:id="@+id/addDiaryBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@null"
+            app:srcCompat="@mipmap/add"
+            tools:layout_editor_absoluteX="137dp" />
+
+        <ImageButton
+            android:id="@+id/profileBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@null"
+            app:srcCompat="@mipmap/profile"
+            tools:layout_editor_absoluteX="206dp" />
+
+</LinearLayout>
