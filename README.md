@@ -1,5 +1,7 @@
 # FACTs-Daily
 
+Please turn off your location service for the first time application usage ot get the location permission.
+
 Due to the limitated trial access of free trial of AccuWeather API, it only allows users to call API 50 times per day
 If encountered problem that caused by the limited number of call on AccuWeather API has reached, user can change the API by following steps.
 
